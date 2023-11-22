@@ -24,7 +24,7 @@ function App() {
     <div 
       className ="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-slate-900 via-gray-900 to-blue-800 h-screen relative overflow-hidden">
 
-        <div className='container ml-auto mr-auto mt-9 h-2/5 w-4/5 bg-gray-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-600 shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)]'> 
+        <div className='container ml-auto mr-auto mt-9 h-3/6 w-fu bg-gray-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-600 shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)]'> 
         
             <h1 className=
               'mt-5 text-center bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-slate-800 via-violet-500 to-zinc-400 bg-clip-text text-transparent drop-shadow-lg text-6xl font-bold '>
