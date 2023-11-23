@@ -1,13 +1,35 @@
 import './App.css'
-import LandingCard from './components/LandingCard';
-import VerticalTimeline from './components/VerticalTimeline';
+import ToggleTheme from './components/ThemeToggle/ThemeToggle';
+import { TypeAnimation } from 'react-type-animation';
 
 function App() {
   return(
-    <div className ="scroll-smooth bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-slate-900 via-gray-900 to-blue-800 h-screen overflow-auto" style={{ overscrollBehavior: 'auto' }}>
-      <LandingCard />
-      <VerticalTimeline/>
-    </div>
+    <div className ="light-background dark:dark-background" style={{ overscrollBehavior: 'auto' }}>
+      <div className='flex justify-center items-center pb-6 pt-2'>
+        <ToggleTheme/>
+      </div>
+
+      <div className='flex justify-center items-center p-6 text-6xl font-extrabold decoration-4 light-header dark:dark-header'>
+          <h1>JJB9922</h1>
+      </div>
+
+      <div className='flex justify-center items-center p-6 light-header dark:dark-header'>
+          <TypeAnimation
+            sequence={[
+              'Junior SWE',
+              2000, 
+              'Musician',
+              2000,
+              'Fighter',
+              2000,
+            ]}
+            wrapper="span"
+            speed={50}
+            style={{ fontSize: '2em', display: 'inline-block' }}
+            repeat={Infinity}
+          />
+        </div>
+      </div>
   );
 }
 

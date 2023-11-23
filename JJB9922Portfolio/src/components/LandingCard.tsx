@@ -41,7 +41,7 @@ export default function LandingCard() {
           
               <h1 className=
                 'p-4 text-center bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-slate-800 via-violet-500 to-zinc-400 bg-clip-text text-transparent drop-shadow-lg text-4xl font-bold '>
-                  Jack's Portfolio
+                  JJB9922
               </h1>
               <body className='p-4 sticky text-center text-2xl drop-shadow-lg bg-gradient-to-r from-orange-500 via-indigo-500 to-green-500 text-transparent bg-clip-text'>
                 <TitleTyper />
@@ -63,13 +63,6 @@ export default function LandingCard() {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
                         </svg>
                         <a href="https://www.github.com/JJB9922" target="_blank" className='text-lg text-white ml-3 hover:underline hover:animate-pulse'> Github </a>
-                    </div>
-
-                    <div className='flex items-center -ml-12'>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#dfc7a7" className="w-6 h-6 ml-12">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z" />
-                        </svg>
-                        <a href="https://www.linkedin.com/in/jack-b-188909245/" target="_blank" className='text-lg text-white ml-3 hover:underline hover:animate-pulse'> Linkedin </a>
                     </div>
 
                     <div className='flex items-center -ml-12'>
