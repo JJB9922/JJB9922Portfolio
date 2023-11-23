@@ -10,7 +10,7 @@ export default {
     extend: {
       animation: {
         'spin-slow': 'spin 14s linear infinite',
-        'pulse-slow': 'pulse 6s cubic-bezier(0.4, 0, 0.6, 0.2) infinite',
+        'pulse-slow': 'ping 6s cubic-bezier(0, 0, 5, 0.1) infinite',
       }
     }
   }
