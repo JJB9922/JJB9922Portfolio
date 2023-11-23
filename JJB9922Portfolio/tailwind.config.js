@@ -6,5 +6,13 @@ export default {
   ],
   darkMode: 'class',
   plugins: [],
+  theme: {
+    extend: {
+      animation: {
+        'spin-slow': 'spin 10s linear infinite',
+        'pulse-slow': 'pulse 6s cubic-bezier(0.4, 0, 0.6, 0.2) infinite',
+      }
+    }
+  }
 }
 
