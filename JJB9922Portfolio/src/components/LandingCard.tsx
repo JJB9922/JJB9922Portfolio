@@ -4,11 +4,18 @@ function calculateYoE(startDateStr: string): { years: number, months: number } {
   
     let years = currentDate.getFullYear() - startDate.getFullYear();
     let months = currentDate.getMonth() - startDate.getMonth();
+    const days = currentDate.getDay() - startDate.getDay();
   
     if (months < 0) {
       years--;
       months += 12;
     }
+
+    if(days > 0){
+      months++;
+    }
+    
+    console.log(months);
     return { years, months };
   }
 
