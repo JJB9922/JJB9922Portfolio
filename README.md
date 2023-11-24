@@ -7,7 +7,7 @@
     <br/>
      <a href="https://jjb-9922-portfolio.vercel.app/">Visit Site</a>
     <br/>
-    <a href="https://dev.to/jjb9922/">Visit Dev Blog</a>
+    <a href="https://dev.to/jjb9922/3-things-i-learned-by-building-a-portfolio-website-32hn">Visit Dev Blog</a>
     <br/>
   </p>
 </p>
