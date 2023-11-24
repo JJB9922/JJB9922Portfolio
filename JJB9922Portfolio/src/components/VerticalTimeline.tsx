@@ -2,7 +2,7 @@ import { Fade } from "react-awesome-reveal";
 
 export default function VerticalTimeline(){
     return(
-        <div className="container -ml-28 scroll-smooth">
+        <div className="container -ml-28 relative">
         <div className="relative wrap p-10 h-full">
         <Fade fraction={0.4} triggerOnce={true}>
             <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style={{ left: '45.5%' }}></div>
@@ -16,14 +16,12 @@ export default function VerticalTimeline(){
             </div>
 
   
-            <div className="order-1 bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-600 shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] rounded-lg shadow-xl relative ml-4 w-6/12 px-6 py-4">
-                <h3 className="mb-3 font-bold text-gray-300 text-xl">Muay Thaideas</h3>
+            <h3 className="mb-3 font-bold text-gray-300 text-xl">Muay Thaideas</h3>
                 <p className="text-sm leading-snug tracking-wide text-gray-300 text-opacity-100">An android app made to guide strikers with padwork and bagwork.</p>
                 <p className="text-sm leading-snug tracking-wide text-gray-300 text-opacity-100 pt-2 pb-1">Made with React-Native, Javascript and Expo. The app also employs SQLite.</p>
                 <a href="https://github.com/JJB9922/MuayThaideas" className="text-sm leading-snug tracking-wide text-gray-300 text-opacity-100 underline">Muay Thaideas Github Repo</a>
                 <p className="pb-1"></p>
                 <a href="https://dev.to/jjb9922/muay-thaideas-a-roundhouse-kickstart-1c5a" className="text-sm leading-snug tracking-wide text-gray-300 text-opacity-100 underline">Muay Thaideas Dev Blog</a>
-            </div>
             
             </div>
 
