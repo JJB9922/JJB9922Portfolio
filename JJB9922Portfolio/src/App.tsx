@@ -40,8 +40,8 @@ function App() {
                 title={'Personal Portfolio Website'}
                 description={'A personal website for any past, present, and future projects in my portfolio that I\'d like to give extra attention.'}
                 stack={'Made with React, Typescript and Tailwind. Deployed on Vercel.'}
-                github='https://github.com/JJB9922'
-                devblog='https://dev.to/jjb9922/'
+                github='https://github.com/JJB9922/JJB9922Portfolio/'
+                devblog='https://dev.to/jjb9922/3-things-i-learned-by-building-a-portfolio-website-32hn'
               />
             </div>
 
