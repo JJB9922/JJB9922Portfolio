@@ -6,7 +6,7 @@
     .dark-background {
         @apply 
         scroll-smooth 
-        bg-gradient-to-br from-violet-900 via-purple-900 to-rose-900
+        bg-gradient-to-r from-slate-900 via-teal-900 to-slate-900
         overflow-hidden 
         h-screen; 
     }
@@ -26,6 +26,10 @@
 
     .light-header {
         @apply
-        bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-violet-900 via-purple-900 to-rose-900 bg-clip-text text-transparent
+        bg-slate-900 bg-clip-text text-transparent
+    }
+
+    body * {
+        @apply transition-colors duration-500;
     }
 }
