@@ -8,7 +8,7 @@ function App() {
 
   return(
     <div className='scroll-smooth'>
-      <div className ="light-background dark:dark-background relative overflow-y-auto" style={{ overscrollBehavior: 'auto', height: '125vh'}}>
+      <div className ="light-background dark:dark-background relative overflow-y-auto" style={{ overscrollBehavior: 'auto', height: '140vh'}}>
 
         <Slide direction='down' triggerOnce={true}>
         <div className='flex justify-center items-center pb-6 pt-2'>
