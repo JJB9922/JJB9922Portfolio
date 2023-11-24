@@ -45,7 +45,7 @@ function App() {
               />
             </div>
 
-            <div className='md:flex md:flex-row justify-center'>
+            <div className='md:flex md:flex-row justify-center dark:mb-4'>
               <ProjectTab 
                 inProgress={true}
                 direction={'up'}
