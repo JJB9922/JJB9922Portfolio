@@ -40,12 +40,12 @@ function App() {
                 title={'Personal Portfolio Website'}
                 description={'A personal website for any past, present, and future projects in my portfolio that I\'d like to give extra attention.'}
                 stack={'Made with React, Typescript and Tailwind. Deployed on Vercel.'}
-                github=''
-                devblog=''
+                github='https://github.com/JJB9922'
+                devblog='https://dev.to/jjb9922/'
               />
             </div>
 
-            <div className='md:flex md:flex justify-center'>
+            <div className='md:flex md:flex-row justify-center'>
               <ProjectTab 
                 inProgress={true}
                 direction={'up'}
