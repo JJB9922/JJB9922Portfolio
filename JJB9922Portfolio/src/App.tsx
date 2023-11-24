@@ -48,7 +48,7 @@ function App() {
             <div className='md:flex md:flex justify-center'>
               <ProjectTab 
                 inProgress={true}
-                direction={'left'}
+                direction={'up'}
                 title={'Lliw.ai'}
                 description={'An AI tool. Users enter a software or product idea, and it will generate a colour pallette / design spec for the product.'}
                 stack={'Made with Python (PyTorch & Flask). Deployed on Vercel.'}
