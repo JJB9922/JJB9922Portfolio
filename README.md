@@ -5,7 +5,9 @@
   <p align="center">
     A personal website for any past, present, and future projects in my portfolio that I'd like to give extra attention.
     <br/>
-     <a href="[https://github.com/JJB9922/JJB9922Portfolio](https://jjb-9922-portfolio.vercel.app/)">Visit Site</a>
+     <a href="https://jjb-9922-portfolio.vercel.app/">Visit Site</a>
+    <br/>
+    <a href="https://dev.to/jjb9922/">Visit Dev Blog</a>
     <br/>
   </p>
 </p>
