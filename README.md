@@ -29,4 +29,4 @@ Some extra help from the 'react-awesome-reveal' and 'react-type-animation' packa
 
 ## Authors
 
-* **JJB9922** - [JJB9922](https://github.com/JJB9922/) *
+* **JJB9922** - [JJB9922](https://github.com/JJB9922/)
