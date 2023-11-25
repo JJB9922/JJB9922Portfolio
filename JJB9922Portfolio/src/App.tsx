@@ -9,7 +9,7 @@ function App() {
 
   return(
     <div className='scroll-smooth'>
-      <div className="light-background dark:dark-background relative overflow-y-auto transition-colors duration-200" style={{ overscrollBehavior: 'auto', maxHeight: '180vh' }}>
+      <div className="light-background dark:dark-background relative overflow-y-auto transition-colors duration-400" style={{ overscrollBehavior: 'auto', maxHeight: '180vh' }}>
         <Slide direction='down'>
           <div className='flex justify-center items-center pb-6 pt-2'>
             <DarkModeToggle />
