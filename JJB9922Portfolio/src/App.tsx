@@ -4,9 +4,10 @@ import { Fade, Slide } from "react-awesome-reveal";
 import LandingCard from './components/LandingCard';
 import ProjectTab from './components/ProjectTab';
 import HeroHeader from './components/HeroHeader';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
-
+  <SpeedInsights/>
   return(
     <div className='scroll-smooth'>
       <div className="light-background dark:dark-background relative" style={{ overscrollBehavior: 'auto', minHeight: '100vh' }}>
