@@ -4,7 +4,6 @@ import { Fade, Slide } from "react-awesome-reveal";
 import LandingCard from './components/LandingCard';
 import ProjectTab from './components/ProjectTab';
 import HeroHeader from './components/HeroHeader';
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
   
@@ -16,7 +15,6 @@ function App() {
             <DarkModeToggle />
           </div>
         </Slide>
-        <SpeedInsights/>
 
         <Fade cascade duration={500} triggerOnce={true}>
           
