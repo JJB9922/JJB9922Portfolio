@@ -7,7 +7,7 @@ import HeroHeader from './components/HeroHeader';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
-  <SpeedInsights/>
+  
   return(
     <div className='scroll-smooth'>
       <div className="light-background dark:dark-background relative" style={{ overscrollBehavior: 'auto', minHeight: '100vh' }}>
@@ -16,8 +16,10 @@ function App() {
             <DarkModeToggle />
           </div>
         </Slide>
+        <SpeedInsights/>
 
         <Fade cascade duration={500} triggerOnce={true}>
+          
 
               <HeroHeader />
               <LandingCard />
