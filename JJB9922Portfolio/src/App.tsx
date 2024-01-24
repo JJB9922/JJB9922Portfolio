@@ -45,17 +45,17 @@ function App() {
               />
             </div>
 
-            {/* <div className='md:flex md:flex-row justify-center dark:mb-4'>
+             <div className='md:flex md:flex-row justify-center dark:mb-4'>
               <ProjectTab 
                 inProgress={true}
                 direction={'up'}
-                title={'Lliw.ai'}
-                description={'An AI tool. Users enter a software or product idea, and it will generate a colour pallette / design spec for the product.'}
-                stack={'Made with Python (PyTorch & Flask). Deployed on Vercel.'}
+                title={'MusiDoodle'}
+                description={'A simple scratchbook type program that allows users to jot down musical ideas as rapidly as possible.'}
+                stack={'Made with C++. GUI via Qt.'}
                 github=''
                 devblog=''
               />
-            </div> */}
+            </div>
 
         </div>
       </div>
