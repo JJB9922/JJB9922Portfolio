@@ -50,7 +50,7 @@ function App() {
                 inProgress={true}
                 direction={'up'}
                 title={'MusiDoodle'}
-                description={'A simple scratchbook type program that allows users to jot down musical ideas as rapidly as possible.'}
+                description={'A simple FOSS scratchbook type program that allows users to jot down musical ideas as rapidly as possible.'}
                 stack={'Made with C++. GUI via Qt.'}
                 github=''
                 devblog=''
