@@ -38,7 +38,7 @@ function App() {
               <ProjectTab 
                 inProgress={false}
                 direction={'right'}
-                title={'Personal Portfolio Website'}
+                title={'Personal Portfolio'}
                 description={'A personal website for any past, present, and future projects in my portfolio that I\'d like to give extra attention.'}
                 stack={'Made with React, Typescript and Tailwind. Deployed on Vercel.'}
                 github='https://github.com/JJB9922/JJB9922Portfolio/'
