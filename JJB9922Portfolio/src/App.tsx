@@ -32,7 +32,7 @@ function App() {
                 description={'An android app made to guide strikers with padwork and bagwork.'}
                 stack={'Made with React-Native, Javascript and Expo. The app also employs SQLite.'}
                 github='https://github.com/JJB9922/MuayThaideas'
-                devblog='https://dev.to/jjb9922/muay-thaideas-a-roundhouse-kickstart-1c5a'
+                site='https://dev.to/jjb9922/muay-thaideas-a-roundhouse-kickstart-1c5a'
               />
 
               <ProjectTab 
@@ -42,7 +42,7 @@ function App() {
                 description={'A personal website for any past, present, and future projects in my portfolio that I\'d like to give extra attention.'}
                 stack={'Made with React, Typescript and Tailwind. Deployed on Vercel.'}
                 github='https://github.com/JJB9922/JJB9922Portfolio/'
-                devblog='https://dev.to/jjb9922/3-things-i-learned-by-building-a-portfolio-website-32hn'
+                site=''
               />
             </div>
 
@@ -52,9 +52,9 @@ function App() {
                 direction={'up'}
                 title={'MusiDoodle'}
                 description={'A simple FOSS scratchbook type program that allows users to jot down musical ideas as rapidly as possible.'}
-                stack={'Made with C++. GUI via Qt.'}
+                stack={'Made with C++. GUI via Qt. Website made with Go, TailwindCSS and HTMX.'}
                 github=''
-                devblog=''
+                site=''
               />
             </div>
 

@@ -14,7 +14,7 @@ function InProgress({inProgress} : {inProgress: boolean}){
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export default function ProjectTab({direction, title, description, stack, github, devblog, inProgress} : {direction: any, title: string, description: string, stack: string, github: string, devblog: string, inProgress: boolean}){
+export default function ProjectTab({direction, title, description, stack, github, site, inProgress} : {direction: any, title: string, description: string, stack: string, github: string, site: string, inProgress: boolean}){
     return(
         <>
         <Slide direction={direction} triggerOnce={true} fraction={0.6}>
@@ -26,7 +26,7 @@ export default function ProjectTab({direction, title, description, stack, github
                 <p className="text-sm leading-snug tracking-wide dark:text-gray-300 text-gray-800 text-opacity-100 pt-2 pb-1">{stack}</p>
                 <a href={github} target="_blank" className="pt-2 pb-1 text-sm leading-snug tracking-wide dark:text-gray-300 text-gray-800 text-opacity-100 underline">{title} Github Repo</a>
                 <p className="pb-1"></p>
-                <a href={devblog} target="_blank" className="pt-2 pb-1 text-sm leading-snug tracking-wide dark:text-gray-300 text-gray-800 text-opacity-100 underline">{title} Dev Blog</a>
+                <a href={site} target="_blank" className="pt-2 pb-1 text-sm leading-snug tracking-wide dark:text-gray-300 text-gray-800 text-opacity-100 underline">{title} Website</a>
             </div>
         </div>
         </Slide>
