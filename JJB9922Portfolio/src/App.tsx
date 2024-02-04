@@ -54,7 +54,7 @@ function App() {
                 description={'A simple FOSS scratchbook type program that allows users to jot down musical ideas as rapidly as possible.'}
                 stack={'Made with C++. GUI via Qt. Website made with Go, TailwindCSS and HTMX.'}
                 github=''
-                site=''
+                site='https://musidoodle-site.onrender.com'
               />
             </div>
 
