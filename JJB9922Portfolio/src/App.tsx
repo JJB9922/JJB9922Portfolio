@@ -45,11 +45,11 @@ function App() {
             site=''
           />
         </div>
-        <div className='md:flex md:flex-row justify-center'>
+        <div className='flex flex-row justify-center'>
 
-          <div className='grid grid-cols-5 w-2/3'>
+          <div className='md:grid md:grid-cols-5 md:w-2/3'>
 
-            <div className='md:col-span-3  flex flex-row justify-center dark:mb-4'>
+            <div className='md:col-span-3 flex flex-row justify-center dark:mb-4'>
               <ProjectTab
                 inProgress={true}
                 direction={'up'}
