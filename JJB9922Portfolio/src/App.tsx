@@ -56,7 +56,7 @@ function App() {
                 title={'MusiDoodle'}
                 description={'A simple FOSS scratchbook type program that allows users to jot down musical ideas as rapidly as possible.'}
                 stack={'Made with C++. GUI via Qt. Website made with Go, TailwindCSS and HTMX.'}
-                github=''
+                github='https://github.com/JJB9922/MusiDoodle'
                 site='https://musidoodle-site.onrender.com'
               />
             </div>
@@ -68,7 +68,7 @@ function App() {
                 title={'Daily Tenkai'}
                 description={'A webapp that allows users to plug in an address and receive a set of routes that takes them to ~10,000 steps. Note - May break if the API runs out of credits!'}
                 stack={'Made with NextJS, React, TailwindCSS & Google Maps API.'}
-                github=''
+                github='https://github.com/JJB9922/DailyTenkai'
                 site='https://daily-tenkai.vercel.app/'
               />
             </div>
