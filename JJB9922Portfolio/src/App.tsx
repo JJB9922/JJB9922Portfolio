@@ -18,7 +18,6 @@ function App() {
 
         <Fade cascade duration={500} triggerOnce={true}>
 
-
           <HeroHeader />
           <LandingCard />
 
@@ -47,7 +46,7 @@ function App() {
         </div>
         <div className='flex flex-row justify-center'>
 
-          <div className='md:grid md:grid-cols-5 md:w-2/3'>
+          <div className='md:grid md:grid-cols-8 md:w-5/6'>
 
             <div className='md:col-span-3 flex flex-row justify-center dark:mb-4'>
               <ProjectTab
@@ -64,12 +63,24 @@ function App() {
             <div className='col-span-2 md:flex md:flex-col justify-center dark:mb-4'>
               <ProjectTab
                 inProgress={false}
-                direction={'right'}
+                direction={'up'}
                 title={'Daily Tenkai'}
-                description={'A webapp that allows users to plug in an address and receive a set of routes that takes them to ~10,000 steps. Note - May break if the API runs out of credits!'}
+                description={'A webapp that allows users to plug in an address and receive a set of routes that takes them to ~10,000 steps. Note - Broken due to the API running out of credits!'}
                 stack={'Made with NextJS, React, TailwindCSS & Google Maps API.'}
                 github='https://github.com/JJB9922/DailyTenkai'
                 site='https://daily-tenkai.vercel.app/'
+              />
+            </div>
+
+            <div className='col-span-3 md:flex md:flex-col justify-center dark:mb-4'>
+              <ProjectTab
+                inProgress={false}
+                direction={'right'}
+                title={'SunscreenAlert'}
+                description={'Small ESP32 prototype. The user clicks a button, and a LED tells the user whether or not sunscreen is needed today in the chosen location.'}
+                stack={'Made with C++ using Platformio to load code to the ESP32.'}
+                github='https://github.com/JJB9922/SunscreenAlert'
+                site=''
               />
             </div>
 
